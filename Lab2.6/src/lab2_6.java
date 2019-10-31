@@ -21,7 +21,8 @@ public class lab2_6 {
 	static int[] newArr(int[] a, int n) {
 		
 		if (n > a.length) {
-			int[] nw = a;
+			int[] nw = new int[a.length];
+			nw = a;
 			return nw;
 		}
 		
