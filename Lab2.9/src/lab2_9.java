@@ -22,6 +22,6 @@ public class lab2_9 {
 	            arr[arr.length-1-i] ^= arr[i] ^= arr[arr.length-1-i];
 	            arr[i] ^= arr[arr.length-1-i];
 	        }
-	        return arr;
+	        return arr; //да да, не сам придумал, вот ссылка https://gist.github.com/SunDrop/9288942
 	    }
 }
